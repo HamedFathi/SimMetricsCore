@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Hamed Fathi</Authors>
+    <Company />
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <Version>2.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <PackageProjectUrl>https://github.com/HamedFathi/SimMetricsCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HamedFathi/SimMetricsCore</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
