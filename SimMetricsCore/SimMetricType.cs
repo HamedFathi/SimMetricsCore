@@ -6,12 +6,19 @@ namespace SimMetricsCore
         ChapmanLengthDeviation,
         ChapmanMeanLength,
         CosineSimilarity,
+        DiceSimilarity,
         EuclideanDistance,
         JaccardSimilarity,
-        DiceSimilarity,
-        Jaro, JaroWinkler, MatchingCoefficient, MongeElkan,
-        Levenstein, NeedlemanWunch, OverlapCoefficient, QGramsDistance,
-        SmithWaterman, SmithWatermanGotoh, SmithWatermanGotohWindowedAffine
-
+        Jaro,
+        JaroWinkler,
+        Levenstein, // Default
+        MatchingCoefficient,
+        MongeElkan,
+        NeedlemanWunch,
+        OverlapCoefficient,
+        QGramsDistance,
+        SmithWaterman,
+        SmithWatermanGotoh,
+        SmithWatermanGotohWindowedAffine
     }
 }

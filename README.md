@@ -40,7 +40,7 @@ SmithWatermanGotohWindowedAffine
 ```cs
 // GetSimilarity
 // [0-1] => [0%-100%] similarity 
-double GetSimilarity(this string firstWord, string secondWord, SimMetricType simMetricType = SimMetricType.Levenstein)
+double GetSimilarity(this string firstWord, string secondWord, SimMetricType simMetricType = SimMetricType.Levenstein, bool convertToPercentage = false)
 SimMetricResult GetMinSimilarityInfo(this string first, IEnumerable<string> second, SimMetricType simMetricType = SimMetricType.Levenstein, bool convertToPercentage = false)
 
 // GetSimilarities
