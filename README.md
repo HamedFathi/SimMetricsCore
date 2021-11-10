@@ -71,7 +71,7 @@ IEnumerable<string> GetMaxSimilarities(this string first, IEnumerable<string> se
 IEnumerable<SimMetricResult> GetMaxSimilaritiesInfo(this string first, IEnumerable<string> second, SimMetricType simMetricType = SimMetricType.Levenstein, bool convertToPercentage = false)
 
 // Contains
-// Increasing the threshold to '1', increases the accuracy of the comparison.
+// Getting closer to '1.0' for the 'threshold' increases the accuracy of the comparison.
 bool ContainsFuzzy(this string source, string search, double threshold = 0.7, SimMetricType simMetricType = SimMetricType.Levenstein)
 // Returns approved values from the 'source' items.
 IEnumerable<string> ContainsFuzzy(this IEnumerable<string> source, string search, double threshold = 0.7, SimMetricType simMetricType = SimMetricType.Levenstein)
