@@ -2,6 +2,10 @@
 
 ### [Nuget](https://www.nuget.org/packages/SimMetricsCore)
 
+![Nuget](https://img.shields.io/nuget/v/SimMetricsCore)
+![Nuget](https://img.shields.io/nuget/dt/SimMetricsCore)
+
+
 ```
 Install-Package SimMetricsCore
 
